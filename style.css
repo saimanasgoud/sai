@@ -1,0 +1,116 @@
+body{
+    background-color:black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    color: blue;
+}
+.navbar-left{
+    padding-left: 20px;
+    height: 20px;
+}
+.img-1{
+    height: 70px;
+}
+.logo-imge{
+    height: 20vw;
+}
+.navbar-right{
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.a-element{
+    padding: 10px;
+    border: 2px solid rgb(45, 214, 107);
+    margin: 10px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    height: 50vh;
+}
+.home-left{
+    width: 100vw;
+    padding-left: 20px;
+    text-align: left;
+    font-size: large;
+    margin-top: 150px;
+}
+.home-right{
+    width: 50vw;
+    padding: 100px;
+    background-color: white;
+}
+.slide{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(207, 143, 75);
+    padding: 10px;
+    background-color: white;
+    letter-spacing: 2px;
+}
+.home-h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.home-p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.services{
+    padding: 50px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50x;
+}
+.ser-h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(59, 211, 59);
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-style: italic;
+    margin-top: 100px;
+}
+.services-sub-cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.services-card{
+    padding: 20px;
+    margin: 20px;
+    border: 2px rgb(91, 209, 67);
+}
+.sc-h1{
+    font-family: 'montserrat', sams-serif;
+    font-size: 25px;
+}
+.p{
+    font-family: 'montserrat', sams-serif;
+    font-size: 20px;
+}
+.contact{
+    text-align: center;
+    margin-top: 0.52px;
+}
+.contact-info{
+    font-family: 'montserrat', sams-serif;
+    font-size: 20px;
+}
+.social-icon{
+    height: 50px;
+}
+.social-icon{
+    height: 50px;
+    padding: 20px;
+}
+.social-icon p{
+    margin-top: 0.85rem;
+}
