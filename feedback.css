@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(223, 223, 26);
+}
+
+.feedback-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.feedback-box h1 {
+    margin-bottom: 10px;
+    color: #4388d2;
+    align-items: center;
+    display: flex;
+}
+
+.feedback-box h2 {
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.feedback-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-box p{
+    color: purple;
+}
+
+.feedback-box label {
+    margin-bottom: 5px;
+}
+
+.feedback-box input,
+.feedback-box textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback-box button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-box button:hover {
+    background-color: #0056b3;
+}
